@@ -1,0 +1,13 @@
+Backend setup:
+
+cd backend
+docker build -t humor-api .
+docker run -p 8000:8000 humor-api
+
+http://127.0.0.1:8000/docs
+
+Frontend setup:
+
+cd frontend
+npm install
+npm run dev
