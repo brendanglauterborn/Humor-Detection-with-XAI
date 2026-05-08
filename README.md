@@ -35,7 +35,17 @@ The application was deployed using a modern full-stack architecture consisting o
 - Explainability: Captum Integrated Gradients
 
 ---
+## Git LFS Requirement
 
+This project uses Git Large File Storage (Git LFS) to store the trained RoBERTa model weights (`humor_model.pt`).
+
+Before cloning the repository, install Git LFS:
+
+```bash
+git lfs install
+```
+
+After cloning, Git LFS will automatically download the model weights.
 
 # Backend Setup
 
